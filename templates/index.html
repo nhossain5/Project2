@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href={{ url_for( 'static', filename='style.css' ) }} />
+    </head>
+    <body>
+        <h1>Random Popular Movie</h1>
+        {% for i in range(1) %}
+        <h2><p><b>{{ titles[i]}}</b></p></h2>
+        <img src="https://image.tmdb.org/t/p/w500{{ poster_paths[i] }}">
+        <h3><p><b>{{ taglines[i] }}</b></p></h3>
+        <h4><p><b>Genre: {{ genres[i] }}</b></p></h4>
+        <a href="{{ wikilinks[i] }}" target="_blank"><input type="submit" id="hover" value="Wikipedia URL"/></a>
+        {% endfor %}
+    </body>
+</html>
