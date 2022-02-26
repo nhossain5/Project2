@@ -1,6 +1,5 @@
 flask
 Flask
 SQLAlchemy
-random
 requests
 python-dotenv
