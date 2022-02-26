@@ -1,6 +1,7 @@
 flask
 Flask
 flask_sqlalchemy
-SQLAlchemy
-requests
+postgres
 python-dotenv
+requests
+SQLAlchemy
