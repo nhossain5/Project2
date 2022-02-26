@@ -1,7 +1,5 @@
 flask
-Flask
-flask_sqlalchemy
-postgres
-python-dotenv
 requests
-SQLAlchemy
+python-dotenv
+psycopg2-binary
+Flask-SQLAlchemy==2.1
